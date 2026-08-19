@@ -10,30 +10,30 @@ public class Main {
         System.out.println("Hello and welcome!");
 //Задание 1
         byte b = 1;
-        System.out.println(b);
+        System.out.println("byte " + "= " + b);
         int i = 432;
-        System.out.println(i);
+        System.out.println("int " + "= " + i);
         short s = 20564;
-        System.out.println(s);
+        System.out.println("short " + "= " + s);
         long l = 5367124L;
-        System.out.println(l);
+        System.out.println("long " + "= " + l);
         float f = (float) 6.445555;
-        System.out.println(f);
+        System.out.println("float " + "= " + f);
         double d = 5.66662544;
-        System.out.println(d);
+        System.out.println("double " + "= " + d);
 //Задание 2
-        float f1 = (float) 27.12;
-        long l1 = 987678965549L;
-        double d1 = 2.786;
-        short s1 = 569;
-        short s2 = -159;
-        short s3 = 27897;
-        byte b1 = 67;
+        float empty = (float) 27.12;
+        long empty0 = 987678965549L;
+        double empty1 = 2.786;
+        short empty2 = 569;
+        short empty3 = -159;
+        short empty4 = 27897;
+        byte empty5 = 67;
 //Задание 3
-        byte L = 23;
-        byte A = 27;
-        byte E = 30;
-        int ALL = L + A + E;
+        byte Ludmila = 23;
+        byte Anna = 27;
+        byte Ekaterina = 30;
+        int ALL = Ludmila + Anna + Ekaterina;
         System.out.println(ALL + " Всего учеников у троих преподователей");
         int paper = 480;
         System.out.println(paper + " Всего закуплено бумаги");
@@ -67,49 +67,49 @@ public class Main {
         System.out.println(+allKilograms + " килограмм получается всего");
 //Задание 7
         short grams = (short) (7 * 1000);
-        short g1 = (short) (grams / 250);
-        System.out.println(+g1 + " дней потребуется если спортсмен будет сбрасывать по 250 граммов");
-        short g2 = (short) (grams / 500);
-        System.out.println(+g2 + " дней потребуется если спортсмен будет сбрасывать по 250 граммов");
-        byte allDays = (byte) (g1 + g2);
+        short days = (short) (grams / 250);
+        System.out.println(+days + " дней потребуется если спортсмен будет сбрасывать по 250 граммов");
+        short days1 = (short) (grams / 500);
+        System.out.println(+days1 + " дней потребуется если спортсмен будет сбрасывать по 250 граммов");
+        byte allDays = (byte) (days + days1);
         byte average = (byte) (allDays / 2);
         System.out.println("В среднем потребуется " + average + " дней, чтобы добиться результата.");
 //Задание 8
-        int M = 67760;
-        System.out.println(+M + " Маша получает в месяц");
-        int D = 83690;
-        System.out.println(+D + " Денис получает в месяц");
-        int K = 76230;
-        System.out.println(+K + " Кристина получает в месяц");
-        double M1 = (double) (M * 0.1);
-        double D1 = (double) (D * 0.1);
-        double K1 = (double) (K * 0.1);
-        System.out.println("10% от зарплаты Маши будет " + M1);
-        System.out.println("10% от зарплаты Дениса будет " + D1);
-        System.out.println("10% от зарплаты Кристины будет " + K1);
-        double M2 = (double) (M + M1);
-        double D2 = (double) (D + D1);
-        double K2 = (double) (K + K1);
-        System.out.println("Зарплата при повышение у Маши будет составлять " + M2);
-        System.out.println("Зарплата при повышение у Дениса будет составлять " + D2);
-        System.out.println("Зарплата при повышение у Кристины будет составлять " + K2);
+        int Masha = 67760;
+        System.out.println(+Masha + " Маша получает в месяц");
+        int Denis = 83690;
+        System.out.println(+Denis + " Денис получает в месяц");
+        int Kristina = 76230;
+        System.out.println(+Kristina + " Кристина получает в месяц");
+        double percentSalary = (double) (Masha * 0.1);
+        double percentSalary0 = (double) (Denis * 0.1);
+        double percentSalary1 = (double) (Kristina * 0.1);
+        System.out.println("10% от зарплаты Маши будет " + percentSalary);
+        System.out.println("10% от зарплаты Дениса будет " + percentSalary0);
+        System.out.println("10% от зарплаты Кристины будет " + percentSalary1);
+        double bonusSalaryMonth = (double) (Masha + percentSalary);
+        double bonusSalaryMonth0 = (double) (Denis + percentSalary0);
+        double bonusSalaryMonth1 = (double) (Kristina + percentSalary1);
+        System.out.println("Зарплата при повышение у Маши будет составлять " + bonusSalaryMonth);
+        System.out.println("Зарплата при повышение у Дениса будет составлять " + bonusSalaryMonth0);
+        System.out.println("Зарплата при повышение у Кристины будет составлять " + bonusSalaryMonth1);
 //Зарплата за год
-        double M3 = (double) (M * 12);
-        double D3 = (double) (D * 12);
-        double K3 = (double) (K * 12);
-        System.out.println("Годовая зарплата у Маши будет - " + M3 + " у Дениса - " + D3 + " и у Кристины - " + K3);
+        double salaryYearMasha = (double) (Masha * 12);
+        double salaryYearDenis = (double) (Denis * 12);
+        double SalaryYearKristina = (double) (Kristina * 12);
+        System.out.println("Годовая зарплата у Маши будет - " + salaryYearMasha + " у Дениса - " + salaryYearDenis + " и у Кристины - " + SalaryYearKristina);
 //Повышенная годовая зарплата
-        double M4 = (double) (M2 * 12);
-        double D4 = (double) (D2 * 12);
-        double K4 = (double) (D2 * 12);
-        System.out.println("Повышенная годовая зарплата у Маши будет - " + M4 + " у Дениса - " + D4 + " и у Кристины - " + K4);
+        double bonusSalaryYearMasha = (double) (bonusSalaryMonth * 12);
+        double bonusSalaryYearDenis = (double) (bonusSalaryMonth0 * 12);
+        double bonusSalaryYearKristina = (double) (bonusSalaryMonth0 * 12);
+        System.out.println("Повышенная годовая зарплата у Маши будет - " + bonusSalaryYearMasha + " у Дениса - " + bonusSalaryYearDenis + " и у Кристины - " + bonusSalaryYearKristina);
 //Разница между повышенной и обычной зарплатой за год
-        double M5 = (double) (M4 - M3);
-        double D5 = (double) (D4 - D3);
-        double K5 = (double) (K4 - K3);
-        System.out.println("Маша теперь получает " + M2 + " рублей. Годовой доход вырос на " +M5);
-        System.out.println("Денис теперь получает " + D2 + " рублей. Годовой доход вырос на " +D5);
-        System.out.println("Кристина теперь получает " + K2 + " рублей. Годовой доход вырос на " +K5);
+        double differenceYear = (double) (bonusSalaryYearMasha - salaryYearMasha);
+        double differenceYear0 = (double) (bonusSalaryYearDenis - salaryYearDenis);
+        double differenceYear1 = (double) (bonusSalaryYearKristina - SalaryYearKristina);
+        System.out.println("Маша теперь получает " + bonusSalaryMonth + " рублей. Годовой доход вырос на " + differenceYear);
+        System.out.println("Денис теперь получает " + bonusSalaryMonth0 + " рублей. Годовой доход вырос на " + differenceYear0);
+        System.out.println("Кристина теперь получает " + bonusSalaryMonth1 + " рублей. Годовой доход вырос на " + differenceYear1);
 
     }
 }
