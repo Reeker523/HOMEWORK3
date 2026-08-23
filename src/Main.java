@@ -10,34 +10,34 @@ public class Main {
         System.out.println("Hello and welcome!");
 //Задание 1
         byte b = 1;
-        System.out.println("byte " + "= " + b);
+        System.out.println("Значение переменной b с типом byte равно "+b);
         int i = 432;
-        System.out.println("int " + "= " + i);
+        System.out.println("Значение переменной i с типом int равно "+i);
         short s = 20564;
-        System.out.println("short " + "= " + s);
+        System.out.println("Значение переменной s с типом short равно "+s);
         long l = 5367124L;
-        System.out.println("long " + "= " + l);
+        System.out.println("Значение переменной l с типом long равно "+l);
         float f = (float) 6.445555;
-        System.out.println("float " + "= " + f);
+        System.out.println("Значение переменной f с типом float равно "+f);
         double d = 5.66662544;
-        System.out.println("double " + "= " + d);
+        System.out.println("Значение переменной d с типом double равно "+d);
 //Задание 2
-        float empty = (float) 27.12;
-        long empty0 = 987678965549L;
-        double empty1 = 2.786;
-        short empty2 = 569;
-        short empty3 = -159;
-        short empty4 = 27897;
-        byte empty5 = 67;
+        float meaning = 27.12F;
+        long meaning1 = 987678965549L;
+        double meaning2 = 2.786;
+        short meaning3 = 569;
+        short meaning4 = -159;
+        short meaning5 = 27897;
+        byte meaning6 = 67;
 //Задание 3
         byte Ludmila = 23;
         byte Anna = 27;
         byte Ekaterina = 30;
-        int ALL = Ludmila + Anna + Ekaterina;
-        System.out.println(ALL + " Всего учеников у троих преподователей");
+        int allPupils = Ludmila + Anna + Ekaterina;
+        System.out.println(allPupils + " Всего учеников у троих преподователей");
         int paper = 480;
         System.out.println(paper + " Всего закуплено бумаги");
-        int pupils = paper / ALL;
+        int pupils = paper / allPupils;
         System.out.println("На каждого ученика рассчитано " + pupils + " листов бумаги");
 //Задание 4
         byte oneMinute = (byte) 16 / 2;
