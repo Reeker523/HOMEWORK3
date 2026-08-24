@@ -22,12 +22,12 @@ public class Main {
         double d = 5.66662544;
         System.out.println("Значение переменной d с типом double равно "+d);
 //Задание 2
-        float meaning = 27.12F;
+        double meaning = 27.12;
         long meaning1 = 987678965549L;
-        double meaning2 = 2.786;
+        float meaning2 = 2.786F;
         short meaning3 = 569;
         short meaning4 = -159;
-        short meaning5 = 27897;
+        int meaning5 = 27897;
         byte meaning6 = 67;
 //Задание 3
         byte Ludmila = 23;
@@ -101,7 +101,7 @@ public class Main {
 //Повышенная годовая зарплата
         double bonusSalaryYearMasha = (double) (bonusSalaryMonth * 12);
         double bonusSalaryYearDenis = (double) (bonusSalaryMonth0 * 12);
-        double bonusSalaryYearKristina = (double) (bonusSalaryMonth0 * 12);
+        double bonusSalaryYearKristina = (double) (bonusSalaryMonth1 * 12);
         System.out.println("Повышенная годовая зарплата у Маши будет - " + bonusSalaryYearMasha + " у Дениса - " + bonusSalaryYearDenis + " и у Кристины - " + bonusSalaryYearKristina);
 //Разница между повышенной и обычной зарплатой за год
         double differenceYear = (double) (bonusSalaryYearMasha - salaryYearMasha);
